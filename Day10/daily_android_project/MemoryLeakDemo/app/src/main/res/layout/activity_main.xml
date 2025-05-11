@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnStaticLeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="静态变量内存泄漏示例" />
+
+    <Button
+        android:id="@+id/btnListenerLeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="监听器内存泄漏示例" />
+
+    <Button
+        android:id="@+id/btnThreadLeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="线程内存泄漏示例" />
+
+    <Button
+        android:id="@+id/btnHandlerLeak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handler内存泄漏示例" />
+
+</LinearLayout>

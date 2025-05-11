@@ -1,0 +1,15 @@
+<!-- res/menu/bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Fragment 1"
+        android:icon="@android:drawable/ic_menu_add" />
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="Fragment 2"
+        android:icon="@android:drawable/ic_menu_info_details" />
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Fragment 3"
+        android:icon="@android:drawable/ic_menu_send" />
+</menu>

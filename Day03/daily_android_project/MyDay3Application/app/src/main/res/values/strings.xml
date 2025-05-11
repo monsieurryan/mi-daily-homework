@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyDay3Application</string>
+    <string name="fab_desc">添加新项目按钮</string>
+    <string name="recycler_desc">项目列表区域</string>
+</resources>

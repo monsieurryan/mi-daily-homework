@@ -1,0 +1,6 @@
+<resources>
+    <!-- Base application theme with Material Components -->
+    <style name="Theme.MyDay2Application" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    </style>
+</resources>

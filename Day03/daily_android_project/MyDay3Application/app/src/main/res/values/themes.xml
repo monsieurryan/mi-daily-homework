@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyDay3Application" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 确保使用无ActionBar主题 -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>

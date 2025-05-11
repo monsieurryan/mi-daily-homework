@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="2"
+    android:padding="16dp">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_columnWeight="1"
+        android:text="重置密码"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_state" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_columnWeight="1"
+        android:text="账号申诉"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_state" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_columnWeight="1"
+        android:text="冻结账号"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_state" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_columnWeight="1"
+        android:text="解冻账号"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_state" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_columnWeight="1"
+        android:text="解封账号"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_state" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_columnWeight="1"
+        android:text="注销账号"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_state" />
+</GridLayout>

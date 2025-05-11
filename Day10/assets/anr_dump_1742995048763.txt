@@ -1,0 +1,140 @@
+ANR发生时间: 2025-03-26 21:17:28.763
+
+线程: Jit thread pool worker thread 0 (ID: 56)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+
+线程: hwuiTask1 (ID: 65)
+状态: RUNNABLE
+优先级: 6
+堆栈信息:
+
+线程: ReferenceQueueDaemon (ID: 53)
+状态: WAITING
+优先级: 5
+堆栈信息:
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:405)
+	at java.lang.Object.wait(Object.java:543)
+	at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:260)
+	at java.lang.Daemons$Daemon.run(Daemons.java:132)
+	at java.lang.Thread.run(Thread.java:1119)
+
+线程: RenderThread (ID: 60)
+状态: RUNNABLE
+优先级: 7
+堆栈信息:
+
+线程: FinalizerDaemon (ID: 54)
+状态: WAITING
+优先级: 5
+堆栈信息:
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:405)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:207)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:228)
+	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:348)
+	at java.lang.Daemons$Daemon.run(Daemons.java:132)
+	at java.lang.Thread.run(Thread.java:1119)
+
+线程: main (ID: 2)
+状态: TIMED_WAITING
+优先级: 5
+堆栈信息:
+	at java.lang.Thread.sleep(Native Method)
+	at java.lang.Thread.sleep(Thread.java:451)
+	at java.lang.Thread.sleep(Thread.java:356)
+	at com.example.anrwatchdogdemo.MainActivity.simulateANR$lambda$2(MainActivity.kt:54)
+	at com.example.anrwatchdogdemo.MainActivity.$r8$lambda$rzM93-ZyoElnc4KdDpavh8JtIBQ(Unknown Source:0)
+	at com.example.anrwatchdogdemo.MainActivity$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loopOnce(Looper.java:248)
+	at android.os.Looper.loop(Looper.java:338)
+	at android.app.ActivityThread.main(ActivityThread.java:8982)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+
+线程: binder:12307_5 (ID: 67)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+
+线程: binder:12307_1 (ID: 57)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+
+线程: binder:12307_4 (ID: 66)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+
+线程: binder:12307_2 (ID: 58)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+
+线程: binder:12307_3 (ID: 61)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+
+线程: HeapTaskDaemon (ID: 52)
+状态: WAITING
+优先级: 5
+堆栈信息:
+
+线程: hwuiTask0 (ID: 64)
+状态: RUNNABLE
+优先级: 6
+堆栈信息:
+
+线程: Profile Saver (ID: 59)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+
+线程: SurfaceSyncGroupTimer (ID: 63)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+	at android.os.MessageQueue.nativePollOnce(Native Method)
+	at android.os.MessageQueue.nextLegacy(MessageQueue.java:907)
+	at android.os.MessageQueue.next(MessageQueue.java:1015)
+	at android.os.Looper.loopOnce(Looper.java:196)
+	at android.os.Looper.loop(Looper.java:338)
+	at android.os.HandlerThread.run(HandlerThread.java:85)
+
+线程: Thread-2 (ID: 62)
+状态: RUNNABLE
+优先级: 5
+堆栈信息:
+	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+	at java.lang.Thread.getStackTrace(Thread.java:1960)
+	at java.lang.Thread.getAllStackTraces(Thread.java:2028)
+	at com.example.anrwatchdogdemo.ANRWatchDog.handleANR(ANRWatchDog.kt:76)
+	at com.example.anrwatchdogdemo.ANRWatchDog.checkThread$lambda$0(ANRWatchDog.kt:29)
+	at com.example.anrwatchdogdemo.ANRWatchDog.$r8$lambda$Pvo0RpbI8vETfdXiQNl3TGlMxck(Unknown Source:0)
+	at com.example.anrwatchdogdemo.ANRWatchDog$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	at java.lang.Thread.run(Thread.java:1119)
+
+线程: Signal Catcher (ID: 50)
+状态: WAITING
+优先级: 10
+堆栈信息:
+
+线程: FinalizerWatchdogDaemon (ID: 55)
+状态: WAITING
+优先级: 5
+堆栈信息:
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:405)
+	at java.lang.Object.wait(Object.java:543)
+	at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:481)
+	at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:461)
+	at java.lang.Daemons$Daemon.run(Daemons.java:132)
+	at java.lang.Thread.run(Thread.java:1119)
+

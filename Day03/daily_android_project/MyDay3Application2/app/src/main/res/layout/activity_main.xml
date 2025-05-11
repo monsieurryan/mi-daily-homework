@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar作为ActionBar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorPrimary"
+    android:title="账号帮助中心"
+    android:titleTextColor="@android:color/white"
+    android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="账号帮助中心"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <!-- 搜索框 -->
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入问题关键词"
+        android:minHeight="48dp"
+        android:padding="16dp" />
+
+    <!-- 按钮区域 -->
+    <include layout="@layout/buttons_layout"/>
+
+    <!-- 常见问题标题 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常见问题"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+    <!-- 常见问题列表 -->
+    <ListView
+        android:id="@+id/faqListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
+</LinearLayout>

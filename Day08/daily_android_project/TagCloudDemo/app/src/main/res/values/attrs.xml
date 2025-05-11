@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagCloudView">
+        <attr name="tagTextColor" format="color" />
+        <attr name="tagBackgroundColor" format="color" />
+        <attr name="tagTextSize" format="dimension" />
+        <attr name="tagPadding" format="dimension" />
+        <attr name="tagSpacing" format="dimension" />
+        <attr name="tagCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources> 

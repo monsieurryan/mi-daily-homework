@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BRVAHGalleryDemo</string>
+    <string name="likes_count">❤️ %d</string>
+    <string name="image_detail">图片详情</string>
+</resources>
